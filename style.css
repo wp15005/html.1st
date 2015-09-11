@@ -11,12 +11,12 @@ h2{
 	font-size:185%;
 	border-left:15px solid #668800;
 	padding-left:10px;
+	clear:left;
 }
 h3{
 	padding:5px;
 	border:1px solid #668800;
 	font-size:154%;
-	clear:left;
 }
 h4{
 	font-size:124%;
@@ -35,6 +35,7 @@ td{
 	padding:10px;
 	background-color:#eeeeee;
 }
+/*
 ul{
 	background-color: #88aa00;
 	padding: 10px 20px;
@@ -65,4 +66,42 @@ address{
 .itemphoto{float:left;
 	margin-right:20px;
 	margin-bottom:50px;
+}
+*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	overflow: hidden;
+	background-color: #88aa00;
+}
+li{
+	float: left;
+	margin-right: 15px;
+	width:  100px;
+	text-align:center;
+	border-right:solid 1px #ffffff;
+}
+li:first-child a{
+	border-left:solid 1px #ffffff;
+}
+li a{
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: solid 5px transparent;
+}
+li a:link{
+	color:#ffffff
+	text-decoration: none;
+}
+li a:visited{
+	color: #eeee00;
+	text-decoration: none;
+}
+li a:hover{
+	color: #000000;
+	text-decoration: none;
+	border-bottom:  solid 5px #cc9900;
 }
