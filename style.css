@@ -11,12 +11,12 @@ h2{
 	font-size:185%;
 	border-left:15px solid #668800;
 	padding-left:10px;
-	clear:left;
-}
+	}
 h3{
 	padding:5px;
 	border:1px solid #668800;
 	font-size:154%;
+	clear:left;
 }
 h4{
 	font-size:124%;
@@ -55,6 +55,11 @@ li a:hover{
 	color:#000000;
 	text-decoration:none;
 }
+*/
+.itemphoto{float:left;
+	margin-right:20px;
+	margin-bottom:50px;
+}
 address{
 	font-size:85%;
 	font-style:normal;
@@ -62,12 +67,7 @@ address{
 	border-top:1px solid #000000;
 	padding-top:10px;
 	clear:left;
-}
-.itemphoto{float:left;
-	margin-right:20px;
-	margin-bottom:50px;
-}
-*/
+	}
 ul{
 	list-style-type: none;
 	margin: 0;
